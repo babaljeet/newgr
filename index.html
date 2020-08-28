@@ -31,19 +31,19 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav m-auto nav-fill w-50">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="/newgr/index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="/newgr/aboutus.html">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Products</a>
+                        <a class="nav-link" href="/newgr/products.html">Products</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="/newgr/services.html">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="/newgr/contactus.html">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -52,16 +52,20 @@
 
     <!-- Carousel -->
     <section id="carousel">
-        <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+            <div class="carousel-caption d-none d-md-block carousel-text-head">
+                <p>GR Engineers<br>where engineering redefined</p>
+                <a href="/aboutus.html"><button type="button" class="btn btn-outline-warning">Know More</button></a>
+              </div>
             <div class="carousel-inner">
-                <div class="carousel-item active" data-interval="3000">
-                    <img src="/newgr/carousel1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-item active">
+                    <img src="/newgr/carousel-1.jpg" class="d-block w-100" alt="...">
                 </div>
-                <div class="carousel-item" data-interval="3000">
-                    <img src="/newgr/carousel2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-item">
+                    <img src="/newgr/carousel-2.jpg" class="d-block w-100" alt="...">
                 </div>
-                <div class="carousel-item" data-interval="3000">
-                    <img src="/newgr/carousel3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-item">
+                    <img src="/newgr/carousel-3.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
         </div>
@@ -86,7 +90,7 @@
                         immense satisfaction of ourselves.
                     </p>
                 </div>
-                <div class="col-md-6 col-sm-6 text-center my-5">
+                <div class="col-md-6 col-sm-6 text-center my-5 mobile-hidden">
                     <img src="/newgr/profession_img.svg" class="rounded img-fluid pro-pic" alt="...">
                 </div>
             </div>
@@ -98,11 +102,12 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-7 col-sm-7 my-5 text-center">
-                    <img src="/newgr/clients_img.png" class="rounded img-fluid clients-pic" alt="...">
+                    <img src="/images/clients_img.png" class="rounded img-fluid clients-pic" alt="...">
                 </div>
                 <div class="col-md-5 col-sm-5 my-5 float-left">
                     <h4 class="clients-head">Our Clients</h4>
-                    <p class="paragraph">Owens Corning <br>Bharat Petroleum Corporation Limited<br>AGS Transact Technologies Limited<br>Deepak Fertilisers And Petrochemicals Corporaion Limited</p>
+                    <p class="paragraph">Owens Corning <br>Bharat Petroleum Corporation Limited<br>AGS Transact
+                        Technologies Limited<br>Deepak Fertilisers And Petrochemicals Corporaion Limited</p>
                 </div>
             </div>
         </div>
@@ -233,6 +238,7 @@
         </div>
 
         <div class="container-fluid my-4 railway-mob">
+            <h4 class="cashvan-heading">Other Project</h4>
             <div class="row">
                 <div class="col-md-6 col-sm-6 my-5">
                     <img src="/newgr/railwayohe1.jpg" alt="" class="img-fluid rail-pic">
@@ -273,7 +279,7 @@
                             into the powerhouse process it represents today. Today, GR Engineers a wide
                             variety of
                             precision-engineered PM parts through its four operating divisions.</p><br>
-                        <p class="ab-p read-link"><a href="#">Continue Reading...</a></p>
+                        <p class="ab-p read-link"><a href="/aboutus.html">Continue Reading...</a></p>
                     </div>
                     <div class="col-md-5 col-sm-5 my-5">
                         <img src="/newgr/gr_engineers_logo.svg" alt="" class="img-fluid gr-about-img ab-img">
@@ -312,7 +318,7 @@
                 <div class="col-md-4 col-sm-4">
                     <h6 class="footer-head">Contact Us</h6>
                     <hr>
-                    <h6>GR Engineers</h6>
+                    <h6 class="gr-footer">GR Engineers</h6>
                     <p><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-geo-alt" fill="currentColor"
                             xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd"
@@ -331,23 +337,23 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-md-4 col-sm-4">
-                                <a href="#" class="badge badge-light">Home</a>
+                                <a href="/index.html" class="badge badge-light">Home</a>
                             </div>
                             <div class="col-md-4 col-sm-4">
-                                <a href="#" class="badge badge-light">About Us</a>
+                                <a href="/aboutus.html" class="badge badge-light">About Us</a>
                             </div>
                             <div class="col-md-4 col-sm-4">
-                                <a href="#" class="badge badge-light">Products</a>
+                                <a href="/products.html" class="badge badge-light">Products</a>
                             </div>
                         </div>
                     </div>
                     <div class="container-fluid">
                         <div class="row my-1">
                             <div class="col-md-4 col-sm-4">
-                                <a href="#" class="badge badge-light">Services</a>
+                                <a href="/services.html" class="badge badge-light">Services</a>
                             </div>
                             <div class="col-md-4 col-sm-4">
-                                <a href="#" class="badge badge-light">Contact Us</a>
+                                <a href="/contactus.html" class="badge badge-light">Contact Us</a>
                             </div>
                             <div class="col-md-4 col-sm-4">
                                 <a href="#" class="badge badge-light">Back To Top</a>
