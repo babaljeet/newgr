@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* logo margin */
+.logo{  
+    margin-left: 1%;
+}
+
+/* navigation bar */
+.navbar{
+    background: url(../images/gr_engineers_background.svg);
+    background-size: cover;
+}
+
+/* our profession body margin left */
+.profession-body, .moto{
+    margin-left: 10%;
+}
+
+/* paragraph tag margin top */
+.paragraph{
+    margin-top: 7%;
+}
+
+p, li{
+    font-size: 1.1em;
+}
+
+/* clients section margins */
+.clients-head{
+    margin-top: 1%;
+    margin-right: 3em;
+}
+
+/* Benefits body heading margin */
+.benefit-body-heading{
+    margin-left: 5%;
+}
+
+/* Benefits images margin */
+.benefit-img{
+    margin-right: 9%;
+}
+
+/* product icons row */
+.product-img{
+    margin-left: 28%;
+    align-content: center;
+}
+
+/* product icon */
+.product-icon{
+    margin-left: 8%;
+}
+
+/* product second row margins */
+.second-row-product{
+    margin-top: -4%;
+}
+
+/* preengineered icon margin top */
+.prd-con{
+    margin-top: 4%;
+    
+}
+
+.mod-con{
+    margin-top: 4%;
+}
+
+/* products icon arrow  */
+.arrow{
+    margin-left: 3%;
+}
+
+/* product body shop arrow margin */
+.arrow-bd{
+    margin-left: 4%;
+}
+
+/* pre-engineered structure icon heading */
+.pre-para{
+    margin-left: -12%;
+}
+/* body shop icon heading */
+.body-para{
+    margin-left: 2%;
+}
+
+/* Car Modifications icon margins */
+.custom-pera{
+    margin-left: -6%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.cashvan-heading{
+    margin-left: 5%;
+}
+
+.cashvan-heading-2{
+    margin-left: 10%;
+}
+
+.cashvan-ul{
+    margin-left: 4%;
+}
+
+/* railway home image position */
+.rail-pic{
+    position: relative;
+    z-index: 4;
+}
+
+.ab-h5, .ab-p, .rail-pic{
+    margin-left: 8%;
+}
+
+.railway-cont{
+    margin-right: 10%;
+}
+
+/* jumbotron bottom position */
+.jumbotron{
+    position: relative;
+    z-index: 4;
+}
+
+/* about us image margin */
+.gr-about-img{
+    margin-left: 30%;
+}
+
+/* jumbotron bottom  */
+.jumbo-bottom{
+    background-color: white;
+    border-radius: 6px;
+}
+
+/* jumbotron bottom  */
+.jumbotron{
+    background: transparent;
+}
+
+/* jumbotron bottom button  */
+.jumbo-btn{
+    margin-left: 77%;
+    margin-top: -5%;
+}
+/* jumbotron bottom image margin  */
+.quote-img{
+    margin-left: 80%;
+    margin-top: -30%;
+}
+
+#footer{
+    background: url(../images/gr_engineers_background.svg);
+    background-size: cover;
+    color: snow;
+}
+
+.grey-container{
+    width: 100%;
+    background: whitesmoke;
+    margin-top: 4%;
+    padding: 4em 0 2em;
+    border-top-left-radius: 40px;
+    transform: skewY(-2deg);
+}
+
+.grey-container:before{
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-color: whitesmoke;
+    position: absolute;
+    top: -39px;
+    right: 0;
+    z-index: -2;
+}
+
+.grey-container:after{
+    content: "";
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    top: -80px;
+    position: absolute;
+    right: 0;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.grey-container h4, .fabrication-head, .pre-para, .body-para, .custom-pera, .prd-img, .arrow{
+    transform: skewY(2deg);
+}
+
+.grey-container-bottom{
+    width: 100%;
+    background: whitesmoke;
+    padding: 3em 0;
+    border-top-right-radius: 40px;
+    transform: skewY(2deg);
+
+}
+
+.grey-container-bottom:before{
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-color: whitesmoke;
+    position: absolute;
+    top: -39px;
+    left: 0;
+    z-index: -2;
+}
+
+.grey-container-bottom:after{
+    content: "";
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    position: absolute;
+    z-index: -1;
+    top: -80px;
+    left: 0;
+    border-radius: 50%;
+}
+
+.ab-h4, .ab-h5, .ab-p, .ab-img{
+    transform: skewY(-2deg);
+}
+
+@media only screen and (max-width: 320px){
+    /* jumbotron bottom  */
+    .jumbo-bottom{
+    background-color: white;
+    border-radius: 6px;
+    }
+
+/* jumbotron bottom  */
+    .jumbotron{
+    background: transparent;
+    }
+
+/* jumbotron bottom button  */
+    .jumbo-btn{
+    margin-left: auto;
+    margin-top: 1%;
+    }
+/* jumbotron bottom image margin  */
+    .quote-img{
+    margin-left: auto;
+    margin-top: auto;
+    }
+
+    /* about us image margin */
+    .gr-about-img{
+        margin-left: auto;
+    }
+
+    .jumbotron{
+        margin: auto;
+    }
+
+    .display-4{
+        margin: auto;
+        font-size: x-large;
+    }
+
+    .lead{
+        margin-top: 5%;
+    }
+
+    .lead moto{
+        margin-left: auto;
+    }
+
+    .benefit-img{
+        margin: auto;
+        text-align: center;
+    }
+
+    .benefit-body-heading{
+        margin: auto;
+    }
+
+    .product-img{
+        text-align: center;
+        margin: auto;
+    }
+
+    .pre-para, .arrow{
+        margin: auto;
+    }
+
+    .arrow{
+        margin-top: 8%;
+    }
+
+    .custom-pera{
+        margin: auto;
+    }
+
+    .railway-mob{
+        margin: auto;
+    }
+
+    .rail-pic{
+        margin: auto;
+    }
+
+    .cashvan-ul{
+        margin: auto;
+    }
+
+    .railway-cont{
+        margin: auto;
+    }
+
+    .clients-pic, .clients-head{
+        margin: auto;
+    }
+
+    .profession-body, .pro-pic, .map{
+        margin: auto;
+    }
+
+    .profession-body{
+        margin-top: 5%;
+    }
+
+    .pro-pic{
+        margin-top: auto;
+    }
+
+    .cashvan-heading-2, .cashvan-ul, .cashvan-heading{
+        margin: auto;
+    }
+
+    .client-head, .prod-ben-head, .super-client-head{
+        margin-right: -3%;
+    }
+}
+
+hr{
+    border: 1px solid white;
+}
+
+
+h4{
+    color: #BE3662;
+}
+
+h5, .under-line{
+    color: #0B78AD;
+}
+
+.arrow{
+    color: #0B78AD;
+}
+
+.tittle-after-carousel{
+    color: #0B78AD;
+    font-weight: bold;
+    margin: auto;
+}
+
+.fabrication-head, .pre-para, .body-para, .custom-pera{
+    margin-top: 2%;
+}
+
+@media only screen and (min-width: 1024px){
+    .equal-pic{
+        width: 30px;
+        animation: move 1s infinite alternate;
+    }
+
+    @keyframes move{
+        from{
+            transform: translateX(0px);
+        }
+        to{
+            transform: translateX(20px);
+        }
+    }
+
+    .plus-pic{
+        width: 30px;
+        animation: move 1s infinite alternate;
+    }
+
+    @keyframes move{
+        from{
+            transform: translateX(0px);
+        }
+        to{
+            transform: translateX(20px);
+        }
+    }
+    
+}
+
+.pro-pic{
+    margin-top: 10%;
+}
+
+.fb-icon{
+    margin-right: 5%;
+}
+
+.footer-head{
+    font-weight: bold;
+}
+
+.footer-reserved{
+    font-size: small;
+}
+
+.read-link{
+    font-size: medium;
+}
+
+.ab-h5{
+    font-weight: bold;
+    font-size: large;
+}
+
+.client-head, .prod-ben-head, .super-client-head{
+    margin-left: -2%;
+}
+
+.fabrication-head{
+    margin-left: -1%;
+}
