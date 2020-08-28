@@ -13,7 +13,7 @@ body{
 
 /* navigation bar */
 .navbar{
-    background: url(../images/gr_engineers_background.svg);
+    background: url(../gr_engineers_background.svg);
     background-size: cover;
 }
 
