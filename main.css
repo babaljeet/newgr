@@ -13,8 +13,16 @@ body{
 
 /* navigation bar */
 .navbar{
-    background: url("gr_engineers_background.svg");
+    background: url("/newgr/gr_engineers_background.svg");
     background-size: cover;
+}
+
+.carousel-text-head{
+    padding-bottom: 100px;
+    margin-left: -65%;
+    font-size: x-large;
+    text-transform: uppercase;
+    font-weight: bolder;
 }
 
 /* our profession body margin left */
@@ -29,6 +37,10 @@ body{
 
 p, li{
     font-size: 1.1em;
+}
+
+a{
+    color: black;
 }
 
 /* clients section margins */
@@ -119,9 +131,10 @@ ul{
     z-index: 4;
 }
 
-.ab-h5, .ab-p, .rail-pic{
+.ab-h5, .ab-p, .rail-pic, .ab-p-ab{
     margin-left: 8%;
 }
+
 
 .railway-cont{
     margin-right: 10%;
@@ -136,6 +149,10 @@ ul{
 /* about us image margin */
 .gr-about-img{
     margin-left: 30%;
+}
+
+.ab-img-ab{
+    margin-top: 15%;
 }
 
 /* jumbotron bottom  */
@@ -161,9 +178,14 @@ ul{
 }
 
 #footer{
-    background: url(../images/gr_engineers_background.svg);
+    background: url("/newgr/gr_engineers_background.svg");
     background-size: cover;
     color: snow;
+}
+
+.gr-footer{
+    font-weight: bold;
+    font-size: larger;
 }
 
 .grey-container{
@@ -238,6 +260,7 @@ ul{
     transform: skewY(-2deg);
 }
 
+
 @media only screen and (max-width: 320px){
     /* jumbotron bottom  */
     .jumbo-bottom{
@@ -272,7 +295,7 @@ ul{
 
     .display-4{
         margin: auto;
-        font-size: x-large;
+        /* font-size: x-large; */
     }
 
     .lead{
@@ -348,6 +371,380 @@ ul{
     .client-head, .prod-ben-head, .super-client-head{
         margin-right: -3%;
     }
+}
+
+@media only screen and (max-width: 360px){
+    .display-4{
+        margin-right: auto;
+        font-size: x-large;
+    }
+
+}
+
+@media only screen and (max-width: 375px){
+    .display-4{
+        margin-right: auto;
+        font-size: x-large;
+    }
+}
+
+/* ipad */
+@media only screen and (max-width: 768px){
+    iframe{
+        width: 200px;
+    }
+
+    .carousel-text-head{
+        margin-left: -45%;
+        padding-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .carousel-text-head{
+        margin-left: -59%;
+        padding-bottom: 80px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+        /* jumbotron bottom  */
+        .jumbo-bottom{
+            background-color: white;
+            border-radius: 6px;
+            }
+        
+        /* jumbotron bottom  */
+            .jumbotron{
+            background: transparent;
+            }
+        
+        /* jumbotron bottom button  */
+            .jumbo-btn{
+            margin-left: auto;
+            margin-top: 1%;
+            }
+        /* jumbotron bottom image margin  */
+            .quote-img{
+            margin-left: auto;
+            margin-top: auto;
+            }
+        
+            /* about us image margin */
+            .gr-about-img{
+                margin-left: auto;
+            }
+        
+            .jumbotron{
+                margin: auto;
+            }
+        
+            .display-4{
+                margin: auto;
+                /* font-size: x-large; */
+            }
+        
+            .lead{
+                margin-top: 5%;
+            }
+        
+            .lead moto{
+                margin-left: auto;
+            }
+        
+            .benefit-img{
+                margin: auto;
+                text-align: center;
+            }
+        
+            .benefit-body-heading{
+                margin: auto;
+            }
+        
+            .product-img{
+                text-align: center;
+                margin: auto;
+            }
+        
+            .pre-para, .arrow{
+                margin: auto;
+            }
+        
+            .arrow{
+                margin-top: 8%;
+            }
+        
+            .custom-pera{
+                margin: auto;
+            }
+        
+            .railway-mob{
+                margin: auto;
+            }
+        
+            .rail-pic{
+                margin: auto;
+            }
+        
+            .cashvan-ul{
+                margin: auto;
+            }
+        
+            .railway-cont{
+                margin: auto;
+            }
+        
+            .clients-pic, .clients-head{
+                margin: auto;
+            }
+        
+            .profession-body, .pro-pic, .map{
+                margin: auto;
+            }
+        
+            .profession-body{
+                margin-top: 5%;
+            }
+        
+            .pro-pic{
+                margin-top: auto;
+            }
+        
+            .cashvan-heading-2, .cashvan-ul, .cashvan-heading{
+                margin: auto;
+            }
+        
+            .client-head, .prod-ben-head, .super-client-head{
+                margin-right: -3%;
+            }
+}
+
+@media only screen and (max-width: 425px){
+    /* jumbotron bottom  */
+    .jumbo-bottom{
+        background-color: white;
+        border-radius: 6px;
+        }
+    
+    /* jumbotron bottom  */
+        .jumbotron{
+        background: transparent;
+        }
+    
+    /* jumbotron bottom button  */
+        .jumbo-btn{
+        margin-left: auto;
+        margin-top: 1%;
+        }
+    /* jumbotron bottom image margin  */
+        .quote-img{
+        margin-left: auto;
+        margin-top: auto;
+        }
+    
+        /* about us image margin */
+        .gr-about-img{
+            margin-left: auto;
+        }
+    
+        .jumbotron{
+            margin: auto;
+        }
+    
+        .display-4{
+            margin: auto;
+            /* font-size: x-large; */
+        }
+    
+        .lead{
+            margin-top: 5%;
+        }
+    
+        .lead moto{
+            margin-left: auto;
+        }
+    
+        .benefit-img{
+            margin: auto;
+            text-align: center;
+        }
+    
+        .benefit-body-heading{
+            margin: auto;
+        }
+    
+        .product-img{
+            text-align: center;
+            margin: auto;
+        }
+    
+        .pre-para, .arrow{
+            margin: auto;
+        }
+    
+        .arrow{
+            margin-top: 8%;
+        }
+    
+        .custom-pera{
+            margin: auto;
+        }
+    
+        .railway-mob{
+            margin: auto;
+        }
+    
+        .rail-pic{
+            margin: auto;
+        }
+    
+        .cashvan-ul{
+            margin: auto;
+        }
+    
+        .railway-cont{
+            margin: auto;
+        }
+    
+        .clients-pic, .clients-head{
+            margin: auto;
+        }
+    
+        .profession-body, .pro-pic, .map{
+            margin: auto;
+        }
+    
+        .profession-body{
+            margin-top: 5%;
+        }
+    
+        .pro-pic{
+            margin-top: auto;
+        }
+    
+        .cashvan-heading-2, .cashvan-ul, .cashvan-heading{
+            margin: auto;
+        }
+    
+        .client-head, .prod-ben-head, .super-client-head{
+            margin-right: -3%;
+        }
+}
+
+@media only screen and (max-width: 768px){
+    /* jumbotron bottom  */
+    .jumbo-bottom{
+        background-color: white;
+        border-radius: 6px;
+        }
+    
+    /* jumbotron bottom  */
+        .jumbotron{
+        background: transparent;
+        }
+    
+    /* jumbotron bottom button  */
+        .jumbo-btn{
+        margin-left: auto;
+        margin-top: 1%;
+        }
+    /* jumbotron bottom image margin  */
+        .quote-img{
+        margin-left: auto;
+        margin-top: auto;
+        }
+    
+        /* about us image margin */
+        .gr-about-img{
+            margin-left: auto;
+        }
+    
+        .jumbotron{
+            margin: auto;
+        }
+    
+        .display-4{
+            margin: auto;
+            /* font-size: x-large; */
+        }
+    
+        .lead{
+            margin-top: 5%;
+        }
+    
+        .lead moto{
+            margin-left: auto;
+        }
+    
+        .benefit-img{
+            margin: auto;
+            text-align: center;
+        }
+    
+        .benefit-body-heading{
+            margin: auto;
+        }
+    
+        .product-img{
+            text-align: center;
+            margin: auto;
+        }
+    
+        .pre-para, .arrow{
+            margin: auto;
+        }
+    
+        .arrow{
+            margin-top: 8%;
+        }
+    
+        .custom-pera{
+            margin: auto;
+        }
+    
+        .railway-mob{
+            margin: auto;
+        }
+    
+        .rail-pic{
+            margin: auto;
+        }
+    
+        .cashvan-ul{
+            margin: auto;
+        }
+    
+        .railway-cont{
+            margin: auto;
+        }
+    
+        .clients-pic, .clients-head{
+            margin: auto;
+        }
+    
+        .profession-body, .pro-pic, .map{
+            margin: auto;
+        }
+    
+        .profession-body{
+            margin-top: 5%;
+        }
+    
+        .pro-pic{
+            margin-top: auto;
+        }
+    
+        .cashvan-heading-2, .cashvan-ul, .cashvan-heading{
+            margin: auto;
+        }
+    
+        .client-head, .prod-ben-head, .super-client-head{
+            margin-right: -3%;
+        }
+
+        iframe{
+            margin: auto;
+        }
 }
 
 hr{
@@ -433,6 +830,12 @@ h5, .under-line{
     font-size: large;
 }
 
+.ab-h5-ab{
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 8%;
+}
+
 .client-head, .prod-ben-head, .super-client-head{
     margin-left: -2%;
 }
@@ -440,3 +843,4 @@ h5, .under-line{
 .fabrication-head{
     margin-left: -1%;
 }
+
